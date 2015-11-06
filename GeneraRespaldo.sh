@@ -6,8 +6,10 @@
 ArchivoCP=""
 RESPALDO=""
 ESC=""
+#Obtencion del idioma de la maquina
 Len="${LANG%'_'*}"
 FILENAME=archivos.txt
+#Funcion que crea el escritorio si no existe y las carpetas necesarias
 validaEscritorio(){
 if [ $Len == 'es' ]; then
 	echo "Español"
@@ -34,7 +36,9 @@ else
 fi
 }
 validaEscritorio
+#Busca los archivos a respaldar
 find ~/ -type f -iregex ".*\.\(c\|txt\|cpp\|sh\|c++\|ppt\|doc\|xls\)" -not -name Practica1.sh -exec cp --backup=numbered -v {} $RESPALDO \;
 cd $ESC
+#Guarda los archivos encontrados
 tar -c "RESPALDO" | bzip2 > $(date +%d-%m-%Y).tar.bz2  && rm -Rf $RESPALDO
 
