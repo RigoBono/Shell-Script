@@ -1,4 +1,6 @@
 #6/11/2015
+#Tal vez se preguntaran por que esta limitando el script a archivos con solo esas extensiones, eso es por que
+#fue un trabajo con fines academicos, como es el caso de los demas scripts en este repositorio
 #Script que generara un  respaldo de los archivos con extensiones: c\|txt\|cpp\|sh\|c++\|ppt\|doc\|xls\
 #del usuario loggeado, guardando el resultado en una carpeta comprimida en el escritorio, teniendo como nombre
 #la fecha en que se ejecuto el script, es muy basico, tiene errores, si lo pueden mejorar, por favor haganlo y 
