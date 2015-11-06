@@ -1,4 +1,8 @@
-
+#6/11/2015
+#Script que generara un  respaldo de los archivos con extensiones: c\|txt\|cpp\|sh\|c++\|ppt\|doc\|xls\
+#del usuario loggeado, guardando el resultado en una carpeta comprimida en el escritorio, teniendo como nombre
+#la fecha en que se ejecuto el script, es muy basico, tiene errores, si lo pueden mejorar, por favor haganlo y 
+# por favor compartan esa mejora. Gracias.
 ArchivoCP=""
 RESPALDO=""
 ESC=""
