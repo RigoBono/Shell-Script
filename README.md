@@ -8,3 +8,5 @@ Cabe resaltar que en ocasiones son fines muy especificos, esto por el hecho de q
 con fines academicos.
 
 Espero les sean de utilidad! Gracias! :)
+
+GNU/Linux CUCEI
